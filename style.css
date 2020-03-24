@@ -94,6 +94,8 @@ p
 }
 .page input[type="radio"]
 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
   appearance: none;
   display: inline-block;
   position: relative;
@@ -126,6 +128,8 @@ p
   }
   .page input[type="radio"]
   {
+    -webkit-appearance: none;
+    -moz-appearance: none;
     appearance: none;
     display: inline-block;
     position: relative;
@@ -195,4 +199,122 @@ p
   position: relative;
   top:0%;
   }
+}
+#logincontent
+{
+    margin-top:-2%;
+}
+
+#logincontent button
+{
+    font-size: 16px;
+    color: white;
+    border-color: white;
+    padding: 15px 25px;
+    border-radius: 5px;
+    display: inline-block;
+    background: none;
+    border: transparent;
+}
+
+
+#signup:hover {
+    background-color: white;
+    cursor: pointer;
+    color: blue;
+}
+
+#signin:hover
+{
+    background: rgb(7, 40, 184);
+    cursor:pointer;
+}
+.container.jumbotron.text-center {
+  background-color: transparent;
+  padding: 5px 5px;
+  width: 28%;
+  margin-top:2.3%;
+  margin-top: inherit;
+  justify-content: center;
+  position: relative;
+  min-width: max-content;
+}
+
+#modalsignin {
+  background-color: blue;
+  margin-right: 43%;
+}
+
+#agreement {
+  margin-top: -10%;
+  margin-left: 5%;
+}
+.carousel-inner{
+  position: relative;
+  width: 100%;
+  height: 550px;
+}
+.calculator-grid {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  height: 70vh;
+  grid-template-columns: repeat(4, 100px);
+  grid-template-rows: minmax(120px, auto) repeat(5, 100px);
+}
+
+.calculator-grid > button {
+  cursor: pointer;
+  font-size: 2rem;
+  border: 1px solid white;
+  outline: none;
+  background-color: rgba(255, 255, 255, .75);
+}
+
+.calculator-grid > button:hover {
+  background-color: rgba(255, 255, 255, .9);
+}
+
+.span-two {
+  grid-column: span 2;
+}
+
+.output {
+  grid-column: 1 / -1;
+  background-color: rgba(0, 0, 0, .75);
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+  flex-direction: column;
+  padding: 10px;
+  word-wrap: break-word;
+  word-break: break-all;
+}
+
+.output .previous-operand {
+  color: rgba(255, 255, 255, .75);
+  font-size: 1.5rem;
+}
+
+.output .current-operand {
+  color: white;
+  font-size: 2.5rem;
+}
+
+.TablePricing
+{
+  max-width:768px;
+  font-size: 20px;
+  font-family: "Arial";
+  position: relative;
+  top: 20%;
+  left: 10%;
+  color: white; 
+}
+.ImageGalery
+{
+  max-width:1000px;
+  position: relative;
+  top: 20%;
+  left: 10%;
 }
